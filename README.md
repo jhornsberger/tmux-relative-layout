@@ -5,7 +5,7 @@ Tmux plugin that defines layouts relative to window size. This makes it much qui
 Tested and working on Linux. Let me know if you try it elsewhere!
 
 ### Layouts
-The plugin redefines some of stock layouts described in the [Tmux man page](http://man.openbsd.org/OpenBSD-current/man1/tmux.1) and then adds a couple more based on the originals. For convenience all of the Tmux layouts are described below.
+The plugin redefines some of the stock layouts described in the [Tmux man page](http://man.openbsd.org/OpenBSD-current/man1/tmux.1) and then adds a couple more based on the originals. For convenience all of the Tmux layouts are described below.
 
 #### even-horizontal
 Panes are spread out evenly from left to right across the window. The plugin does not modify this layout.
