@@ -122,5 +122,6 @@ if [ -z $@ ]; then
 	setup_main_horz_tiled_key_binding
 	setup_main_vert_tiled_key_binding
 else
-   $@
+   # Run requested action and ignore output
+   $@ >> /dev/null
 fi
