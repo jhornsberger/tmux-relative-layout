@@ -44,7 +44,7 @@ Like main-vertical, a single pane is shown at the left of the window. Remaining 
 
 ### Configuration
 
-The plugin supports a number of configuration options to control behaviour. Options are set in your Tmux configuration file using `set-option -g @option 'value'`
+The plugin supports a number of configuration options to control behaviour. Available options and default values are given below. Options are set in your Tmux configuration file using `set-option -g @option 'value'`
 
 ```
 main_pane_height_percent="66"
