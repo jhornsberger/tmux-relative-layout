@@ -18,14 +18,16 @@ Panes are spread evenly from top to bottom. The plugin does not modify this layo
 *Default binding:* `M-2`
 
 #### main-horizontal
-A large (main) pane is shown at the top of the window and the remaining panes are spread from left to right in the leftover space at the bottom. Use the `@main_pane_height_percent` Tmux option to specify the proportional height of the top pane and the `@alt_pane_height_min` Tmux option to specify the absolute minimum height of the lower panes.
+A large (main) pane is shown at the top of the window and the remaining panes are spread from left to right in the leftover space at the bottom. Use the `@main_pane_height_percent` Tmux option to specify the proportional height of the top pane and the `@alt_pane_height_min` Tmux option to specify the absolute minimum height of the lower panes. Use the alternate key binding to select to be prompted for the main pane height.
 
 *Default binding:* `M-3`
+*Default alternate binding:* `M-#`
 
 #### main-vertical
-Similar to main-horizontal but the large pane is placed on the left and the others spread from top to bottom along the right. Use the `@main_pane_width_percent` Tmux option to specify the proportional width of the left pane and the `@alt_pane_width_min` Tmux option to specify the absolute minimum width of the right panes.
+Similar to main-horizontal but the large pane is placed on the left and the others spread from top to bottom along the right. Use the `@main_pane_width_percent` Tmux option to specify the proportional width of the left pane and the `@alt_pane_width_min` Tmux option to specify the absolute minimum width of the right panes. Use the alternate key binding to select to be prompted for the main pane width.
 
 *Default binding:* `M-4`
+*Default alternate binding:* `M-$`
 
 #### tiled
 Panes are spread out as evenly as possible over the window in both rows and columns.
